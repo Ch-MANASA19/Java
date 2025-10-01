@@ -11,12 +11,7 @@ class Box {
         System.out.println("Volume of Box: " + Volume());
     }
 
-    // Method to calculate volume of the box
-    double Volume() {
-        return (width * height * depth);
-    }
-}
-
+   
 public class Volume {
     public static void main(String[] args) {
         // Creating objects of Box class
@@ -32,3 +27,4 @@ public class Volume {
         System.out.println("Volume of Box2: " + Vol2);
     }
 }
+
