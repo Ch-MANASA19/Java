@@ -11,7 +11,12 @@ class Box {
         System.out.println("Volume of Box: " + Volume());
     }
 
-   
+    // Method to calculate volume
+    double Volume() {
+        return width * height * depth;
+    }
+}
+
 public class Volume {
     public static void main(String[] args) {
         // Creating objects of Box class
